@@ -59,10 +59,11 @@
 
 @media screen and (min-width: 1024px) {
   .edit-this-page {
-    display: block;
+    display: none;
   }
 }
 
 .toolbar .edit-this-page a {
   color: var(--toolbar-muted-color);
+  display: none;
 }
